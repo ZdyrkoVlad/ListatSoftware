@@ -1,0 +1,33 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://cdn4.iconfinder.com/data/icons/crypto-currency-and-coin-2/256/eos_eoscoin_coin-512.png');
+  background-size: cover;
+}
+
+.button{
+
+  text-align: center;
+  width: 130px;
+  height: 36px;
+  color: #7e7878;
+
+  border: 1px solid rgba(204, 3, 3, 0.46);
+
+  border-radius: 48px;
+}
+
+.sr-only{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+
+  color: #727272;
+
+}

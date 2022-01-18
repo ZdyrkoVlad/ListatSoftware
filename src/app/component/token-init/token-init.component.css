@@ -1,0 +1,177 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+
+.form-signup {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signup.checkbox {
+  font-weight: 400;
+}
+.form-signup.form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signup .form-control:focus {
+  z-index: 2;
+}
+
+.h1{
+  position: relative;
+  text-align: center;
+}
+
+.h1-curs{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 132%;
+  /* or 84px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 148%;
+  /* or 21px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.submit-button{
+
+  text-align: center;
+  width: 130px;
+  height: 36px;
+  color: whitesmoke;
+  box-shadow: white;
+
+  background: #C50000;
+  border-radius: 48px;
+}
+
+.main-container{
+  /*margin-top: 17%;*/
+  position: relative;
+  top:17%;
+  /*height: 83%;*/
+}
+
+
+.radio-toolbar {
+  margin: 10px;
+}
+
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 14px;
+
+  margin-right:8px;
+  /*border: 1px solid #BBBBBB;*/
+  /*box-sizing: border-box;*/
+  border-radius: 28px;
+  cursor: pointer;
+
+}
+
+
+/*.radio-toolbar input[type="radio"]:focus + label {*/
+/*  border: 2px dashed #444;*/
+/*}*/
+
+.radio-toolbar input[type="radio"]:checked + label {
+  background: #C50000;
+
+  color: #FFFFFF;
+}
+
+.sr-only{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+
+  color: #727272;
+
+}
+
+.radio-blochainMetod{
+  font-size: 14px;
+}
+
+.form-control input[type="text"]{
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input{
+  width: 320px;
+  height: 28px;
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-ripple .mat-ripple-element {
+  opacity: 0.03 !important;
+  background-color: #C50000 !important;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background,.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: #C50000;
+}
+
+.invalid-feedback{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+
+  color: #f54747;
+}
+

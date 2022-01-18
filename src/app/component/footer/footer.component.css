@@ -1,0 +1,63 @@
+.spam-block1{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-right:18%;
+  left:20%;
+  /* identical to box height, or 21px */
+
+
+  color: #000000;
+}
+
+.spam-block2{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-right:10%;
+  margin-left:15%;
+  /* identical to box height, or 21px */
+
+
+  color: #000000;
+}
+
+.spam-block3{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-right:10%;
+
+  /* identical to box height, or 21px */
+
+
+  color: #000000;
+}
+
+
+.span-nav{
+  position: relative;
+  margin-right: 3%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 132%;
+  /* or 18px */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+}

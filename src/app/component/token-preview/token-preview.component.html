@@ -1,0 +1,55 @@
+<div style="position: absolute; left:3%; top:2%">
+  <button class="button" mat-button (click)="clean()" >Clean</button>
+</div>
+
+
+<div style="position:absolute;width:23%;left:38.5%; top:15%; ">
+
+  <mat-card class="example-card">
+
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title> {{tokenInitData.tokenName }}</mat-card-title>
+      <mat-card-subtitle>{{tokenInitData.Symbol}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <!--  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+
+    <mat-card-content>
+
+
+      <label class="sr-only">Token Name</label>
+      <p>  {{tokenInitData.tokenName }}</p>
+
+
+      <label class="sr-only">Token Symbol</label>
+      <p> {{tokenInitData.Symbol}}</p>
+
+      <label class="sr-only">Company</label>
+      <p>{{tokenInitData.company}}</p>
+
+      <label class="sr-only">Supply</label>
+      <p *ngIf="tokenInitData.supply">
+        Supply Enable
+      </p>
+      <label class="sr-only">Maximum Token Supply</label>
+      <p>{{tokenInitData.maximumTokenSupply}}</p>
+
+      <p *ngIf="!tokenInitData.supply">
+        Supply Disable
+      </p>
+
+      <label class="sr-only">Blockchain method</label>
+      <p>
+        {{tokenInitData.blochainMetod}}
+      </p>
+
+    </mat-card-content>
+
+    <mat-card-actions>
+<!--      <button mat-button>LIKE</button>-->
+<!--      <button mat-button>SHARE</button>-->
+    </mat-card-actions>
+
+  </mat-card>
+</div>
